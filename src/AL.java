@@ -25,7 +25,7 @@ import java.awt.event.*;
 
         public void actionPerformed(ActionEvent e) {
             numClicks++;
-            text.setText("Button Clicked " + numClicks + " times");
+            text.setText("Button Clicked" + numClicks + "times");
         }
 
         public void windowClosing(WindowEvent e) {

@@ -1,11 +1,10 @@
-public class TrianglenClass {
+public class TriangleClass {
     public static void main(String[] args) {
         String a ="*";
         for (int i = 0; i <=3; i++) {
-            //System.out.println(a);
+
             for (int j =4; j <=3-i; j++) {
                 System.out.printf(" ");
-
 
             }
             System.out.printf(a);

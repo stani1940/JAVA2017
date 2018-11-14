@@ -1,4 +1,4 @@
-public class LastdigitClass {
+public class LastdClass {
     public static void main(String[] args) {
         System.out.println(lastDigit(257));
 
