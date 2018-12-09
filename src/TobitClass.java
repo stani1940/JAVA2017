@@ -4,8 +4,8 @@ public class TobitClass {
 
     public static void main(String[] args) {
 
-            int a = 34;
-        System.out.println(isSet(a,2));
+        int a = 34;
+        System.out.println(isSet(a, 2));
     }
 
     public static boolean isSet(int flags, int bit) {

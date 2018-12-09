@@ -17,7 +17,7 @@ import java.awt.event.*;
             super(title);
             setLayout(new FlowLayout());
             addWindowListener(this);
-            b = new Button("Click me");
+            b = new Button("Click me ");
             add(b);
             add(text);
             b.addActionListener(this);
@@ -25,7 +25,7 @@ import java.awt.event.*;
 
         public void actionPerformed(ActionEvent e) {
             numClicks++;
-            text.setText("Button Clicked" + numClicks + "times");
+            text.setText("Button Clicked " + numClicks + " times");
         }
 
         public void windowClosing(WindowEvent e) {
